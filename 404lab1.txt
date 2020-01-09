@@ -1,0 +1,21 @@
+Q2:
+2.21.0
+
+Q3:
+2.22.0
+
+Q4:
+
+Q5:
+a 301 status code was returned for curl -i http://google.com
+http://www.google.com should be visited to get a 200 status code
+
+Q6:
+a 301 status code was returned for curl -i http://google.com/teapot
+a 301 status code and then a 418 status code was returned for curl -iL http://google.com/teapot
+a 418 status code was returned for curl -i http://www.google.com/teapot
+
+Q7:
+the form contents was "No form fields." when without -X POST
+it become "MiniFieldStorage('X', 'Y')" once with -X POST -d "X=Y"
+-X can change the request type from default GET to the type we choose
