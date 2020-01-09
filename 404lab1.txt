@@ -20,8 +20,8 @@ A 301 status code and then a 418 status code was returned for "curl -iL http://g
 A 418 status code was returned for "curl -i http://www.google.com/teapot"
 
 Q7:
-The form contents was "No form fields." when without "-X POST".
-It become "MiniFieldStorage('X', 'Y')" once with "-X POST -d "X=Y"".
+The form contents is "No form fields." when without "-X POST".
+It becomes "MiniFieldStorage('X', 'Y')" once with "-X POST -d "X=Y"".
 "-X" can change the request type from default GET to the type we choose.
 
 Q8:
