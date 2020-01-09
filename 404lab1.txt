@@ -1,3 +1,6 @@
+Q1:
+https://github.com/mingweiarthurli
+
 Q2:
 2.21.0
 
@@ -5,17 +8,21 @@ Q3:
 2.22.0
 
 Q4:
+The virtual environment python has the same python version as the not virtual environment python, but only contains a few libraries.
 
 Q5:
-a 301 status code was returned for curl -i http://google.com
-http://www.google.com should be visited to get a 200 status code
+A 301 status code was returned for "curl -i http://google.com".
+"http://www.google.com" should be visited to get a 200 status code.
 
 Q6:
-a 301 status code was returned for curl -i http://google.com/teapot
-a 301 status code and then a 418 status code was returned for curl -iL http://google.com/teapot
-a 418 status code was returned for curl -i http://www.google.com/teapot
+A 301 status code was returned for "curl -i http://google.com/teapot"
+A 301 status code and then a 418 status code was returned for "curl -iL http://google.com/teapot"
+A 418 status code was returned for "curl -i http://www.google.com/teapot"
 
 Q7:
-the form contents was "No form fields." when without -X POST
-it become "MiniFieldStorage('X', 'Y')" once with -X POST -d "X=Y"
--X can change the request type from default GET to the type we choose
+The form contents was "No form fields." when without "-X POST".
+It become "MiniFieldStorage('X', 'Y')" once with "-X POST -d "X=Y"".
+"-X" can change the request type from default GET to the type we choose.
+
+Q8:
+https://raw.githubusercontent.com/mingweiarthurli/CMPUT404-Lab1/master/404lab1.pys
